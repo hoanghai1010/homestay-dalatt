@@ -1,0 +1,138 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Sương Mai Villa Design System - Vintage Đà Lạt Colors 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* Base colors - Vintage cream and earth tones */
+    --background: 45 20% 96%;
+    --foreground: 25 15% 25%;
+
+    /* Card colors - Warm white with subtle cream */
+    --card: 40 25% 98%;
+    --card-foreground: 25 15% 25%;
+
+    --popover: 40 25% 98%;
+    --popover-foreground: 25 15% 25%;
+
+    /* Primary - Deep forest green (Đà Lạt pine) */
+    --primary: 150 25% 35%;
+    --primary-foreground: 45 20% 96%;
+
+    /* Secondary - Warm terracotta */
+    --secondary: 15 35% 75%;
+    --secondary-foreground: 25 15% 25%;
+
+    /* Muted - Sage green */
+    --muted: 120 15% 85%;
+    --muted-foreground: 25 10% 45%;
+
+    /* Accent - Golden cream */
+    --accent: 40 40% 85%;
+    --accent-foreground: 25 15% 25%;
+
+    --destructive: 0 70% 55%;
+    --destructive-foreground: 45 20% 96%;
+
+    --border: 40 15% 88%;
+    --input: 40 15% 90%;
+    --ring: 150 25% 35%;
+
+    --radius: 0.75rem;
+
+    /* Custom vintage colors */
+    --vintage-brown: 25 35% 45%;
+    --vintage-cream: 45 30% 92%;
+    --vintage-sage: 120 20% 70%;
+    --vintage-terracotta: 15 45% 65%;
+    --vintage-forest: 150 30% 30%;
+    --vintage-gold: 40 50% 75%;
+
+    /* Gradients */
+    --gradient-vintage: linear-gradient(135deg, hsl(var(--vintage-cream)), hsl(var(--vintage-sage)));
+    --gradient-hero: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.5));
+    --gradient-warm: linear-gradient(45deg, hsl(var(--vintage-terracotta)), hsl(var(--vintage-gold)));
+
+    /* Shadows */
+    --shadow-vintage: 0 4px 20px hsla(25, 15%, 25%, 0.1);
+    --shadow-warm: 0 8px 30px hsla(15, 35%, 45%, 0.15);
+
+    /* Animations */
+    --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .dark {
+    /* Dark mode - Darker vintage tones */
+    --background: 25 15% 8%;
+    --foreground: 45 20% 92%;
+
+    --card: 25 15% 12%;
+    --card-foreground: 45 20% 92%;
+
+    --popover: 25 15% 12%;
+    --popover-foreground: 45 20% 92%;
+
+    --primary: 120 25% 65%;
+    --primary-foreground: 25 15% 8%;
+
+    --secondary: 25 20% 20%;
+    --secondary-foreground: 45 20% 92%;
+
+    --muted: 25 15% 18%;
+    --muted-foreground: 45 10% 65%;
+
+    --accent: 25 20% 20%;
+    --accent-foreground: 45 20% 92%;
+
+    --destructive: 0 60% 50%;
+    --destructive-foreground: 45 20% 92%;
+
+    --border: 25 15% 22%;
+    --input: 25 15% 22%;
+    --ring: 120 25% 65%;
+
+    /* Custom dark vintage colors */
+    --vintage-brown: 25 25% 65%;
+    --vintage-cream: 45 15% 15%;
+    --vintage-sage: 120 15% 25%;
+    --vintage-terracotta: 15 35% 55%;
+    --vintage-forest: 150 20% 15%;
+    --vintage-gold: 40 35% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-playfair;
+  }
+
+  /* Smooth scrolling */
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-background;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-vintage-sage rounded-full;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-vintage-terracotta;
+  }
+}
