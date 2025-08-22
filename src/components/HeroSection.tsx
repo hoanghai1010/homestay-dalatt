@@ -1,4 +1,4 @@
-import BookingForm from "./BookingForm";
+import BookingForm from "@/components/BookingForm";
 import heroImage from "@/assets/images/bg-1.webp";
 
 const HeroSection = () => {
