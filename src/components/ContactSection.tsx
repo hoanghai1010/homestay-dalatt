@@ -1,32 +1,42 @@
+import { useState } from "react";
 import { MapPin, Phone, Mail, Clock } from "lucide-react";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import MapModal from "./MapModal";
+import EmailModal from "./EmailModal";
 
 const ContactSection = () => {
+  const [isMapOpen, setIsMapOpen] = useState(false);
+  const [isEmailOpen, setIsEmailOpen] = useState(false);
+
   const contactInfo = [
     {
       icon: MapPin,
       title: "Địa Chỉ",
-      content: "123 Đường Hoa Hồng, Phường 1, Thành phố Đà Lạt, Lâm Đồng",
-      action: "Xem bản đồ"
+      content: "1 Trần Hưng Đạo, Phường 3, Thành phố Đà Lạt, Lâm Đồng",
+      action: "Xem bản đồ",
+      onClick: () => setIsMapOpen(true)
     },
     {
       icon: Phone, 
       title: "Điện Thoại",
       content: "+84 263 123 4567",
-      action: "Gọi ngay"
+      action: "Gọi ngay",
+      onClick: undefined
     },
     {
       icon: Mail,
       title: "Email",
       content: "booking@suongmaivilla.com",
-      action: "Gửi email"
+      action: "Gửi email",
+      onClick: () => setIsEmailOpen(true)
     },
     {
       icon: Clock,
       title: "Giờ Làm Việc", 
       content: "24/7 - Luôn sẵn sàng phục vụ",
-      action: "Liên hệ ngay"
+      action: "Liên hệ ngay",
+      onClick: undefined
     }
   ];
 
@@ -57,7 +67,12 @@ const ContactSection = () => {
                 <p className="font-playfair text-sm text-muted-foreground mb-4 leading-relaxed">
                   {info.content}
                 </p>
-                <Button variant="outline" size="sm" className="font-playfair font-medium">
+                <Button 
+                  variant="outline" 
+                  size="sm" 
+                  className="font-playfair font-medium"
+                  onClick={info.onClick || (() => {})}
+                >
                   {info.action}
                 </Button>
               </Card>
@@ -83,6 +98,9 @@ const ContactSection = () => {
           </div>
         </div>
       </div>
+      
+      <MapModal isOpen={isMapOpen} onClose={() => setIsMapOpen(false)} />
+      <EmailModal isOpen={isEmailOpen} onClose={() => setIsEmailOpen(false)} />
     </section>
   );
 };
