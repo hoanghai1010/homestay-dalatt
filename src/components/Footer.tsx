@@ -70,7 +70,7 @@ const Footer = () => {
               <div className="flex items-start space-x-3">
                 <MapPin className="w-5 h-5 mt-0.5 text-white/60" />
                 <p className="font-playfair text-sm text-white/80">
-                  123 Đường Hoa Hồng, Phường 1<br />
+                  1 Trần Hưng Đạo, Phường 3<br />
                   Thành phố Đà Lạt, Lâm Đồng
                 </p>
               </div>
@@ -92,7 +92,7 @@ const Footer = () => {
 
         <div className="border-t border-white/20 mt-12 pt-8 text-center">
           <p className="font-playfair text-white/60">
-            © 2024 Sương Mai Villa. Tất cả quyền được bảo lưu. 
+            © 2025 Sương Mai Villa. Tất cả quyền được bảo lưu. 
           </p>
         </div>
       </div>
