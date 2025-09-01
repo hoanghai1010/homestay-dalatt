@@ -17,6 +17,13 @@ const Header = () => {
     <header className="fixed top-0 w-full z-50 bg-card/70 backdrop-blur-lg border-b border-border/50 shadow-sm">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
+          {/* Logo */}
+          <div className="flex items-center">
+            <h1 className="font-dancing text-3xl font-bold text-primary">
+              Sương Mai Villa
+            </h1>
+          </div>
+
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
             {menuItems.map((item) => (
