@@ -11,7 +11,7 @@ const Header = () => {
     { title: "Trang Chủ", action: () => navigate('/') },
     { title: "Về Chúng Tôi", action: () => navigate('/about') },
     { title: "Phòng Nghỉ", href: "#rooms" },
-    { title: "Dịch Vụ", href: "#services" },
+    { title: "Dịch Vụ", action: () => navigate('/services') },
     { title: "Liên Hệ", href: "#contact" },
   ];
 
