@@ -10,16 +10,26 @@ const Header = () => {
   const menuItems = [
     { title: "Trang Chủ", action: () => navigate('/') },
     { title: "Về Chúng Tôi", action: () => navigate('/about') },
-    { title: "Phòng Nghỉ", href: "#rooms" },
+    { title: "Phòng Nghỉ", action: () => {
+      navigate('/');
+      setTimeout(() => {
+        const element = document.getElementById('rooms');
+        element?.scrollIntoView({ behavior: 'smooth' });
+      }, 100);
+    }},
     { title: "Dịch Vụ", action: () => navigate('/services') },
-    { title: "Liên Hệ", href: "#contact" },
+    { title: "Liên Hệ", action: () => {
+      navigate('/');
+      setTimeout(() => {
+        const element = document.getElementById('contact');
+        element?.scrollIntoView({ behavior: 'smooth' });
+      }, 100);
+    }},
   ];
 
   const handleMenuClick = (item: typeof menuItems[0]) => {
     if (item.action) {
       item.action();
-    } else if (item.href) {
-      window.location.href = item.href;
     }
     setIsMenuOpen(false);
   };
