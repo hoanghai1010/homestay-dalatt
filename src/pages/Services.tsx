@@ -6,7 +6,7 @@ import { useState } from "react";
 
 // Import service images
 import yogaSession from "@/assets/images/yoga.jpg";
-import romanticDinner from "@/assets/images/romantic-dinner.jpg";
+import romanticDinner from "@/assets/images/romantic-dinner1.jpg";
 import photography from "@/assets/images/photography.jpg";
 import coffeeCeremony from "@/assets/images/coffee-ceremony.jpg";
 import breakfastBuffet from "@/assets/images/breakfast-buffet.jpg";
@@ -215,6 +215,26 @@ const Services = () => {
           </div>
         </div>
       )}
+
+      {/* Contact Section */}
+      <section id="contact" className="py-20 bg-primary/5">
+        <div className="container mx-auto px-4 text-center">
+          <h2 className="font-dancing text-4xl text-primary mb-6">
+            Đăng ký trải nghiệm ngay hôm nay
+          </h2>
+          <p className="font-playfair text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
+            Liên hệ với chúng tôi để được tư vấn và đặt lịch cho các dịch vụ đặc biệt tại Sương Mai Villa
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Button size="lg" className="font-playfair">
+              Gọi ngay: 0263 123 456
+            </Button>
+            <Button size="lg" variant="outline" className="font-playfair">
+              Gửi yêu cầu tư vấn
+            </Button>
+          </div>
+        </div>
+      </section>
 
       <Footer />
     </div>
