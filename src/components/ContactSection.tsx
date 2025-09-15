@@ -4,37 +4,39 @@ import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import MapModal from "./MapModal";
 import EmailModal from "./EmailModal";
+import { useTranslation } from "react-i18next";
 
 const ContactSection = () => {
   const [isMapOpen, setIsMapOpen] = useState(false);
   const [isEmailOpen, setIsEmailOpen] = useState(false);
+  const { t } = useTranslation();
 
   const contactInfo = [
     {
       icon: MapPin,
-      title: "Địa Chỉ",
-      content: "1 Trần Hưng Đạo, Phường 3, Thành phố Đà Lạt, Lâm Đồng",
+      title: t('contact.address'),
+      content: t('contact.addressValue'),
       action: "Xem bản đồ",
       onClick: () => setIsMapOpen(true)
     },
     {
       icon: Phone, 
-      title: "Điện Thoại",
-      content: "+84 263 123 4567",
+      title: t('contact.phone'),
+      content: t('contact.phoneValue'),
       action: "Gọi ngay",
       onClick: undefined
     },
     {
       icon: Mail,
-      title: "Email",
-      content: "booking@suongmaivilla.com",
-      action: "Gửi email",
+      title: t('contact.email'),
+      content: t('contact.emailValue'),
+      action: t('contact.sendButton'),
       onClick: () => setIsEmailOpen(true)
     },
     {
       icon: Clock,
-      title: "Giờ Làm Việc", 
-      content: "24/7 - Luôn sẵn sàng phục vụ",
+      title: t('contact.hours'), 
+      content: t('contact.hoursValue'),
       action: "Liên hệ ngay",
       onClick: undefined
     }
@@ -45,11 +47,11 @@ const ContactSection = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="font-dancing text-5xl md:text-6xl text-primary mb-4">
-            Liên Hệ Với Chúng Tôi
+            {t('contact.title')}
           </h2>
           <div className="w-24 h-1 bg-vintage-terracotta mx-auto mb-6"></div>
           <p className="font-playfair text-lg text-muted-foreground max-w-2xl mx-auto">
-            Chúng tôi luôn sẵn sàng hỗ trợ bạn tạo nên những kỷ niệm đẹp tại Sương Mai Villa
+            {t('contact.subtitle')}
           </p>
         </div>
 
@@ -90,7 +92,7 @@ const ContactSection = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" className="font-playfair font-medium px-8">
-              Đặt Phòng Ngay
+              {t('nav.bookNow')}
             </Button>
             <Button size="lg" variant="outline" className="font-playfair font-medium px-8">
               Gọi Tư Vấn
