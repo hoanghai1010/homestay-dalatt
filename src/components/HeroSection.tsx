@@ -1,7 +1,9 @@
 import BookingForm from "@/components/BookingForm";
 import heroImage from "@/assets/images/bg-1.webp";
+import { useTranslation } from "react-i18next";
 
 const HeroSection = () => {
+  const { t } = useTranslation();
   return (
     <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image */}
@@ -19,8 +21,10 @@ const HeroSection = () => {
             Sương Mai Villa
           </h1>
           <p className="font-playfair text-xl md:text-2xl text-white/90 max-w-3xl mx-auto leading-relaxed drop-shadow-md">
-            Chào mừng bạn đến với thiên đường nghỉ dưỡng giữa lòng Đà Lạt. 
-            Nơi sương mai hôn gió, thông xanh và những giấc mơ bình yên.
+            {t('hero.title')} {t('hero.subtitle')}
+          </p>
+          <p className="font-playfair text-lg md:text-xl text-white/80 mt-4 drop-shadow-md">
+            {t('hero.description')}
           </p>
         </div>
         
