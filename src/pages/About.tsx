@@ -3,6 +3,7 @@ import { Card } from "@/components/ui/card";
 import { useNavigate } from "react-router-dom";
 import HeaderWithNavigation from "@/components/HeaderWithNavigation";
 import Footer from "@/components/Footer";
+import { useTranslation } from "react-i18next";
 
 // Import gallery images
 import villaInterior1 from "@/assets/images/view-1.jpg";
@@ -14,6 +15,7 @@ import villaExterior1 from "@/assets/images/view-6.webp";
 
 const About = () => {
   const navigate = useNavigate();
+  const { t } = useTranslation();
 
   const galleryImages = [
     {
@@ -57,7 +59,7 @@ const About = () => {
         {/* Hero Section */}
         <div className="text-center mb-16">
           <h1 className="font-dancing text-6xl md:text-7xl text-primary mb-6">
-            Vẻ Đẹp Sương Mai Villa
+            {t('about.title')}
           </h1>
           <div className="w-32 h-1 bg-vintage-terracotta mx-auto mb-8"></div>
           <p className="font-playfair text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
@@ -166,7 +168,7 @@ const About = () => {
               onClick={() => navigate('/')}
               className="bg-primary hover:bg-primary/90 text-primary-foreground font-playfair text-lg px-8 py-3"
             >
-              Đặt Phòng Ngay
+              {t('nav.bookNow')}
             </Button>
           </div>
         </div>
