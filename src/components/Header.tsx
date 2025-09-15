@@ -2,17 +2,20 @@ import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useNavigate } from "react-router-dom";
+import { useTranslation } from "react-i18next";
+import LanguageSwitcher from "@/components/LanguageSwitcher";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const navigate = useNavigate();
+  const { t } = useTranslation();
 
   const menuItems = [
-    { title: "Trang Chủ", action: () => navigate('/') },
-    { title: "Về Chúng Tôi", action: () => navigate('/about') },
-    { title: "Phòng Nghỉ", href: "#rooms" },
-    { title: "Dịch Vụ", action: () => navigate('/services') },
-    { title: "Liên Hệ", href: "#contact" },
+    { title: t('nav.home'), action: () => navigate('/') },
+    { title: t('nav.about'), action: () => navigate('/about') },
+    { title: t('nav.rooms'), href: "#rooms" },
+    { title: t('nav.services'), action: () => navigate('/services') },
+    { title: t('nav.contact'), href: "#contact" },
   ];
 
   const handleMenuClick = (item: typeof menuItems[0]) => {
@@ -61,14 +64,17 @@ const Header = () => {
             ))}
           </nav>
 
-          {/* Book Now Button */}
-          <Button 
-            className="hidden md:flex font-playfair font-medium px-6"
-            variant="default"
-            onClick={() => navigate('/')}
-          >
-            Đặt Phòng Ngay
-          </Button>
+          {/* Language Switcher and Book Now Button */}
+          <div className="hidden md:flex items-center gap-3">
+            <LanguageSwitcher />
+            <Button 
+              className="font-playfair font-medium px-6"
+              variant="default"
+              onClick={() => navigate('/')}
+            >
+              {t('nav.bookNow')}
+            </Button>
+          </div>
 
           {/* Mobile Menu Button */}
           <button
@@ -92,6 +98,7 @@ const Header = () => {
                   {item.title}
                 </button>
               ))}
+              <LanguageSwitcher />
               <Button 
                 className="mt-4 font-playfair font-medium"
                 variant="default"
@@ -100,7 +107,7 @@ const Header = () => {
                   setIsMenuOpen(false);
                 }}
               >
-                Đặt Phòng Ngay
+                {t('nav.bookNow')}
               </Button>
             </div>
           </nav>
