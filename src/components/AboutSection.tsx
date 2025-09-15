@@ -9,9 +9,11 @@ import {
 } from "@/components/ui/carousel";
 import Autoplay from "embla-carousel-autoplay";
 import { useRef } from "react";
+import { useTranslation } from "react-i18next";
 
 const AboutSection = () => {
   const navigate = useNavigate();
+  const { t } = useTranslation();
   const plugin = useRef(
     Autoplay({ delay: 3000, stopOnInteraction: true })
   );
@@ -39,13 +41,14 @@ const AboutSection = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="font-dancing text-5xl md:text-6xl text-primary mb-4">
-            Câu Chuyện Của Chúng Tôi
+            {t('about.title')}
           </h2>
           <div className="w-24 h-1 bg-vintage-terracotta mx-auto mb-6"></div>
           <p className="font-playfair text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Sương Mai cũng như bao lữ khách tới đây, "lỡ" mến thương Đà Lạt dù không phải là người con được sinh ra 
-            trong tiếng thông reo ngàn dặm, được lớn lên theo mỗi mùa hoa dã quỳ nở, ngắm những giọt sương đêm 
-            đọng trên hiên nhà hay thả hồn theo những đám mây bồng bềnh...
+            {t('about.description1')}
+          </p>
+          <p className="font-playfair text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed mt-4">
+            {t('about.description2')}
           </p>
         </div>
 
@@ -86,7 +89,7 @@ const AboutSection = () => {
               onClick={() => navigate('/about')}
               className="group bg-white/10 border-primary/30 hover:bg-primary hover:text-primary-foreground transition-all duration-300"
             >
-              <span className="font-playfair text-lg">Xem thêm</span>
+              <span className="font-playfair text-lg">{t('about.subtitle')}</span>
               <ChevronRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
             </Button>
           </div>
@@ -94,7 +97,7 @@ const AboutSection = () => {
 
         <div className="text-center">
           <p className="font-dancing text-2xl text-primary mb-4">
-            Năm 2025, chúng tôi may mắn đủ duyên để khởi nên ngôi nhà ước mơ...
+            Năm 2024, chúng tôi may mắn đủ duyên để khởi nên ngôi nhà ước mơ...
           </p>
           <p className="font-playfair text-lg text-foreground italic">
             Mời bạn ghé thăm nhà nhé! ✨
