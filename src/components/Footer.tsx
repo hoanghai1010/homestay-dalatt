@@ -1,6 +1,8 @@
 import { Facebook, Instagram, Mail, Phone, MapPin } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 const Footer = () => {
+  const { t } = useTranslation();
   const socialLinks = [
     { icon: Facebook, href: "#", label: "Facebook" },
     { icon: Instagram, href: "#", label: "Instagram" },
@@ -8,10 +10,10 @@ const Footer = () => {
   ];
 
   const quickLinks = [
-    { title: "Trang Chủ", href: "#home" },
-    { title: "Về Chúng Tôi", href: "#about" },
-    { title: "Phòng Nghỉ", href: "#rooms" },
-    { title: "Liên Hệ", href: "#contact" }
+    { title: t('nav.home'), href: "#home" },
+    { title: t('nav.about'), href: "#about" },
+    { title: t('nav.rooms'), href: "#rooms" },
+    { title: t('nav.contact'), href: "#contact" }
   ];
 
   return (
@@ -26,8 +28,7 @@ const Footer = () => {
               </h1>
             </div>
             <p className="font-playfair text-white/80 leading-relaxed mb-6 max-w-md">
-              Thiên đường nghỉ dưỡng giữa lòng Đà Lạt. Nơi sương mai hôn gió, 
-              thông xanh và những giấc mơ bình yên cùng bạn.
+              {t('footer.description')}
             </p>
             <div className="flex space-x-4">
               {socialLinks.map((social, index) => {
@@ -48,7 +49,7 @@ const Footer = () => {
 
           {/* Quick Links */}
           <div>
-            <h3 className="font-playfair text-lg font-semibold mb-4">Liên Kết</h3>
+            <h3 className="font-playfair text-lg font-semibold mb-4">{t('footer.quickLinks')}</h3>
             <ul className="space-y-2">
               {quickLinks.map((link, index) => (
                 <li key={index}>
@@ -65,25 +66,24 @@ const Footer = () => {
 
           {/* Contact Info */}
           <div>
-            <h3 className="font-playfair text-lg font-semibold mb-4">Thông Tin</h3>
+            <h3 className="font-playfair text-lg font-semibold mb-4">{t('footer.contactInfo')}</h3>
             <div className="space-y-3">
               <div className="flex items-start space-x-3">
                 <MapPin className="w-5 h-5 mt-0.5 text-white/60" />
                 <p className="font-playfair text-sm text-white/80">
-                  1 Trần Hưng Đạo, Phường 3<br />
-                  Thành phố Đà Lạt, Lâm Đồng
+                  {t('contact.addressValue')}
                 </p>
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="w-5 h-5 text-white/60" />
                 <p className="font-playfair text-sm text-white/80">
-                  +84 263 123 4567
+                  {t('contact.phoneValue')}
                 </p>
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="w-5 h-5 text-white/60" />
                 <p className="font-playfair text-sm text-white/80">
-                  booking@suongmaivilla.com
+                  {t('contact.emailValue')}
                 </p>
               </div>
             </div>
@@ -92,7 +92,7 @@ const Footer = () => {
 
         <div className="border-t border-white/20 mt-12 pt-8 text-center">
           <p className="font-playfair text-white/60">
-            © 2025 Sương Mai Villa. Tất cả quyền được bảo lưu. 
+            {t('footer.copyright')}
           </p>
         </div>
       </div>
