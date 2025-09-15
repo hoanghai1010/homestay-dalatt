@@ -1,0 +1,113 @@
+{
+  "nav": {
+    "home": "Trang Chủ",
+    "about": "Về Chúng Tôi",
+    "rooms": "Phòng Nghỉ",
+    "services": "Dịch Vụ",
+    "contact": "Liên Hệ",
+    "bookNow": "Đặt Phòng Ngay"
+  },
+  "hero": {
+    "title": "Trải Nghiệm Sự Thanh Bình",
+    "subtitle": "Tại Sương Mai Villa Đà Lạt",
+    "description": "Một nơi nghỉ dưỡng yên tĩnh giữa lòng thành phố ngàn hoa",
+    "bookButton": "Đặt Phòng Ngay",
+    "viewRooms": "Xem Phòng"
+  },
+  "about": {
+    "title": "Về Sương Mai Villa",
+    "subtitle": "Nơi Nghỉ Dưỡng Lý Tưởng Tại Đà Lạt",
+    "description1": "Tọa lạc tại vị trí đắc địa giữa lòng thành phố Đà Lạt mộng mơ, Sương Mai Villa là điểm đến hoàn hảo cho những ai tìm kiếm sự yên bình và thư giãn. Với kiến trúc độc đáo kết hợp giữa phong cách hiện đại và nét đẹp truyền thống, chúng tôi mang đến không gian nghỉ dưỡng sang trọng nhưng vẫn gần gũi với thiên nhiên.",
+    "description2": "Mỗi căn villa được thiết kế tỉ mỉ với đầy đủ tiện nghi cao cấp, view nhìn ra thung lũng xanh mát và những đồi thông bạt ngàn. Đội ngũ nhân viên chuyên nghiệp của chúng tôi luôn sẵn sàng phục vụ quý khách với sự tận tâm và chu đáo nhất.",
+    "feature1Title": "Vị Trí Đắc Địa",
+    "feature1Desc": "Chỉ 10 phút từ trung tâm thành phố",
+    "feature2Title": "Phòng Nghỉ Sang Trọng",
+    "feature2Desc": "Tiện nghi hiện đại, view đẹp",
+    "feature3Title": "Dịch Vụ Chuyên Nghiệp",
+    "feature3Desc": "Phục vụ tận tâm 24/7",
+    "feature4Title": "Không Gian Yên Tĩnh",
+    "feature4Desc": "Riêng tư và thư giãn tuyệt đối"
+  },
+  "rooms": {
+    "title": "Phòng Nghỉ Cao Cấp",
+    "subtitle": "Chọn không gian hoàn hảo cho kỳ nghỉ của bạn",
+    "viewDetails": "Xem Chi Tiết",
+    "bookNow": "Đặt Ngay",
+    "from": "Từ",
+    "perNight": "/đêm",
+    "standard": {
+      "title": "Villa Standard",
+      "description": "Phòng ấm cúng với đầy đủ tiện nghi cơ bản, phù hợp cho cặp đôi hoặc khách đi công tác."
+    },
+    "deluxe": {
+      "title": "Villa Deluxe", 
+      "description": "Không gian rộng rãi với ban công riêng, view nhìn ra vườn hoa và đồi thông."
+    },
+    "suite": {
+      "title": "Villa Suite",
+      "description": "Căn hộ cao cấp với phòng khách riêng, bếp đầy đủ tiện nghi và view panorama tuyệt đẹp."
+    }
+  },
+  "services": {
+    "title": "Dịch Vụ Của Chúng Tôi",
+    "subtitle": "Trải nghiệm dịch vụ hoàn hảo cho kỳ nghỉ của bạn",
+    "restaurant": {
+      "title": "Nhà Hàng & Ẩm Thực",
+      "description": "Thưởng thức ẩm thực địa phương và quốc tế với nguyên liệu tươi ngon từ Đà Lạt"
+    },
+    "pool": {
+      "title": "Hồ Bơi Ngoài Trời",
+      "description": "Hồ bơi với view nhìn ra thung lũng, nước ấm quanh năm"
+    },
+    "breakfast": {
+      "title": "Bữa Sáng Buffet",
+      "description": "Buffet sáng phong phú với các món Âu - Á, phục vụ từ 6:30 - 10:00"
+    },
+    "garden": {
+      "title": "Vườn Sinh Thái",
+      "description": "Khu vườn rộng 2000m² với nhiều loại hoa và rau sạch Đà Lạt"
+    },
+    "photography": {
+      "title": "Dịch Vụ Chụp Ảnh",
+      "description": "Lưu giữ khoảnh khắc đẹp với dịch vụ chụp ảnh chuyên nghiệp tại các địa điểm nổi tiếng Đà Lạt"
+    },
+    "yoga": {
+      "title": "Yoga & Thiền",
+      "description": "Lớp yoga buổi sáng với huấn luyện viên chuyên nghiệp, tìm lại sự cân bằng cho cơ thể và tâm hồn"
+    },
+    "romantic": {
+      "title": "Tiệc Lãng Mạn",
+      "description": "Tổ chức tiệc riêng tư cho các cặp đôi với không gian lãng mạn và menu đặc biệt"
+    },
+    "coffee": {
+      "title": "Tiệm Cafe",
+      "description": "Thưởng thức cafe Đà Lạt đặc sản trong không gian ấm cúng với view nhìn ra vườn hoa"
+    }
+  },
+  "contact": {
+    "title": "Liên Hệ Với Chúng Tôi",
+    "subtitle": "Sẵn sàng phục vụ quý khách 24/7",
+    "address": "Địa Chỉ",
+    "addressValue": "123 Trần Hưng Đạo, Phường 10, Đà Lạt",
+    "phone": "Điện Thoại",
+    "phoneValue": "0263 123 456",
+    "email": "Email",
+    "emailValue": "info@suongmaivilla.vn",
+    "hours": "Giờ Làm Việc",
+    "hoursValue": "24/7 - Luôn sẵn sàng phục vụ",
+    "formTitle": "Gửi Tin Nhắn",
+    "formSubtitle": "Chúng tôi sẽ phản hồi trong vòng 24 giờ",
+    "namePlaceholder": "Họ và tên",
+    "emailPlaceholder": "Email của bạn",
+    "messagePlaceholder": "Tin nhắn của bạn",
+    "sendButton": "Gửi Tin Nhắn",
+    "sending": "Đang gửi...",
+    "successMessage": "Tin nhắn đã được gửi thành công!"
+  },
+  "footer": {
+    "description": "Nơi nghỉ dưỡng lý tưởng giữa lòng Đà Lạt",
+    "quickLinks": "Liên Kết Nhanh",
+    "contactInfo": "Thông Tin Liên Hệ",
+    "copyright": "© 2024 Sương Mai Villa. Bản quyền thuộc về chúng tôi."
+  }
+}

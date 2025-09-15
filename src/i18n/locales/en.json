@@ -1,0 +1,113 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "rooms": "Rooms",
+    "services": "Services",
+    "contact": "Contact",
+    "bookNow": "Book Now"
+  },
+  "hero": {
+    "title": "Experience Tranquility",
+    "subtitle": "At Suong Mai Villa Da Lat",
+    "description": "A peaceful retreat in the heart of the city of flowers",
+    "bookButton": "Book Now",
+    "viewRooms": "View Rooms"
+  },
+  "about": {
+    "title": "About Suong Mai Villa",
+    "subtitle": "Your Ideal Retreat in Da Lat",
+    "description1": "Located in the prime location in the heart of dreamy Da Lat city, Suong Mai Villa is the perfect destination for those seeking peace and relaxation. With unique architecture combining modern style and traditional beauty, we offer a luxurious resort space while still being close to nature.",
+    "description2": "Each villa is meticulously designed with full luxury amenities, views overlooking green valleys and vast pine hills. Our professional staff is always ready to serve you with dedication and care.",
+    "feature1Title": "Prime Location",
+    "feature1Desc": "Only 10 minutes from city center",
+    "feature2Title": "Luxury Rooms",
+    "feature2Desc": "Modern amenities, beautiful views",
+    "feature3Title": "Professional Service",
+    "feature3Desc": "Dedicated service 24/7",
+    "feature4Title": "Peaceful Space",
+    "feature4Desc": "Absolute privacy and relaxation"
+  },
+  "rooms": {
+    "title": "Premium Rooms",
+    "subtitle": "Choose the perfect space for your vacation",
+    "viewDetails": "View Details",
+    "bookNow": "Book Now",
+    "from": "From",
+    "perNight": "/night",
+    "standard": {
+      "title": "Standard Villa",
+      "description": "Cozy room with all basic amenities, perfect for couples or business travelers."
+    },
+    "deluxe": {
+      "title": "Deluxe Villa",
+      "description": "Spacious room with private balcony, garden and pine hill views."
+    },
+    "suite": {
+      "title": "Suite Villa",
+      "description": "Premium apartment with separate living room, fully equipped kitchen and beautiful panoramic views."
+    }
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Experience perfect service for your vacation",
+    "restaurant": {
+      "title": "Restaurant & Cuisine",
+      "description": "Enjoy local and international cuisine with fresh ingredients from Da Lat"
+    },
+    "pool": {
+      "title": "Outdoor Swimming Pool",
+      "description": "Pool with valley views, warm water year-round"
+    },
+    "breakfast": {
+      "title": "Buffet Breakfast",
+      "description": "Rich buffet breakfast with Asian and Western dishes, served from 6:30 - 10:00"
+    },
+    "garden": {
+      "title": "Eco Garden",
+      "description": "2000m² garden with various flowers and organic vegetables from Da Lat"
+    },
+    "photography": {
+      "title": "Photography Service",
+      "description": "Capture beautiful moments with professional photography service at famous Da Lat locations"
+    },
+    "yoga": {
+      "title": "Yoga & Meditation",
+      "description": "Morning yoga classes with professional instructors, find balance for body and soul"
+    },
+    "romantic": {
+      "title": "Romantic Dinner",
+      "description": "Private dinner arrangements for couples with romantic atmosphere and special menu"
+    },
+    "coffee": {
+      "title": "Coffee Shop",
+      "description": "Enjoy specialty Da Lat coffee in a cozy space with garden views"
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Ready to serve you 24/7",
+    "address": "Address",
+    "addressValue": "123 Tran Hung Dao, Ward 10, Da Lat",
+    "phone": "Phone",
+    "phoneValue": "0263 123 456",
+    "email": "Email",
+    "emailValue": "info@suongmaivilla.vn",
+    "hours": "Working Hours",
+    "hoursValue": "24/7 - Always ready to serve",
+    "formTitle": "Send Message",
+    "formSubtitle": "We will respond within 24 hours",
+    "namePlaceholder": "Your name",
+    "emailPlaceholder": "Your email",
+    "messagePlaceholder": "Your message",
+    "sendButton": "Send Message",
+    "sending": "Sending...",
+    "successMessage": "Message sent successfully!"
+  },
+  "footer": {
+    "description": "The ideal resort in the heart of Da Lat",
+    "quickLinks": "Quick Links",
+    "contactInfo": "Contact Info",
+    "copyright": "© 2024 Suong Mai Villa. All rights reserved."
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "nav": {
+    "home": "ホーム",
+    "about": "私たちについて",
+    "rooms": "客室",
+    "services": "サービス",
+    "contact": "お問い合わせ",
+    "bookNow": "今すぐ予約"
+  },
+  "hero": {
+    "title": "静寂を体験",
+    "subtitle": "ダラット スオンマイ ヴィラで",
+    "description": "花の街の中心にある平和な隠れ家",
+    "bookButton": "今すぐ予約",
+    "viewRooms": "客室を見る"
+  },
+  "about": {
+    "title": "スオンマイ ヴィラについて",
+    "subtitle": "ダラットの理想的なリトリート",
+    "description1": "夢のようなダラット市の中心部の絶好のロケーションに位置するスオンマイ ヴィラは、平和とリラクゼーションを求める方々にとって完璧な目的地です。モダンなスタイルと伝統的な美しさを組み合わせたユニークな建築で、自然に近い豪華なリゾート空間を提供します。",
+    "description2": "各ヴィラは豪華な設備を備えて細心の注意を払って設計され、緑の谷と広大な松の丘を見下ろす景色を楽しめます。私たちのプロフェッショナルなスタッフは、常に献身的で思いやりのあるサービスでお客様をお迎えする準備ができています。",
+    "feature1Title": "絶好のロケーション",
+    "feature1Desc": "市内中心部からわずか10分",
+    "feature2Title": "ラグジュアリールーム",
+    "feature2Desc": "モダンな設備、美しい景色",
+    "feature3Title": "プロフェッショナルサービス",
+    "feature3Desc": "24時間体制の専用サービス",
+    "feature4Title": "静かな空間",
+    "feature4Desc": "完全なプライバシーとリラクゼーション"
+  },
+  "rooms": {
+    "title": "プレミアムルーム",
+    "subtitle": "休暇に最適な空間をお選びください",
+    "viewDetails": "詳細を見る",
+    "bookNow": "今すぐ予約",
+    "from": "から",
+    "perNight": "/泊",
+    "standard": {
+      "title": "スタンダード ヴィラ",
+      "description": "カップルやビジネス旅行者に最適な、すべての基本的な設備を備えた居心地の良い部屋です。"
+    },
+    "deluxe": {
+      "title": "デラックス ヴィラ",
+      "description": "プライベートバルコニー付きの広々とした部屋、庭園と松の丘の景色が楽しめます。"
+    },
+    "suite": {
+      "title": "スイート ヴィラ",
+      "description": "独立したリビングルーム、設備の整ったキッチン、美しいパノラマビューを備えたプレミアムアパートメント。"
+    }
+  },
+  "services": {
+    "title": "私たちのサービス",
+    "subtitle": "休暇のための完璧なサービスを体験してください",
+    "restaurant": {
+      "title": "レストラン＆料理",
+      "description": "ダラットの新鮮な食材を使った地元料理と国際料理をお楽しみください"
+    },
+    "pool": {
+      "title": "屋外プール",
+      "description": "谷の景色を望むプール、年中温水"
+    },
+    "breakfast": {
+      "title": "ビュッフェ朝食",
+      "description": "アジア料理と西洋料理が豊富なビュッフェ朝食、6:30〜10:00提供"
+    },
+    "garden": {
+      "title": "エコガーデン",
+      "description": "ダラットの様々な花と有機野菜がある2000m²の庭園"
+    },
+    "photography": {
+      "title": "写真撮影サービス",
+      "description": "ダラットの有名な場所でプロの写真撮影サービスで美しい瞬間を捉えましょう"
+    },
+    "yoga": {
+      "title": "ヨガ＆瞑想",
+      "description": "プロのインストラクターとの朝のヨガクラス、体と心のバランスを見つけましょう"
+    },
+    "romantic": {
+      "title": "ロマンチックディナー",
+      "description": "ロマンチックな雰囲気と特別メニューでカップルのためのプライベートディナーの手配"
+    },
+    "coffee": {
+      "title": "コーヒーショップ",
+      "description": "庭園の景色を望む居心地の良い空間でダラット特産のコーヒーをお楽しみください"
+    }
+  },
+  "contact": {
+    "title": "お問い合わせ",
+    "subtitle": "24時間サービス準備完了",
+    "address": "住所",
+    "addressValue": "ダラット10区チャンフンダオ123番地",
+    "phone": "電話",
+    "phoneValue": "0263 123 456",
+    "email": "メール",
+    "emailValue": "info@suongmaivilla.vn",
+    "hours": "営業時間",
+    "hoursValue": "24時間 - 常にサービス準備完了",
+    "formTitle": "メッセージを送る",
+    "formSubtitle": "24時間以内に返信いたします",
+    "namePlaceholder": "お名前",
+    "emailPlaceholder": "メールアドレス",
+    "messagePlaceholder": "メッセージ",
+    "sendButton": "メッセージを送信",
+    "sending": "送信中...",
+    "successMessage": "メッセージが正常に送信されました！"
+  },
+  "footer": {
+    "description": "ダラット中心部の理想的なリゾート",
+    "quickLinks": "クイックリンク",
+    "contactInfo": "連絡先情報",
+    "copyright": "© 2024 スオンマイ ヴィラ。全著作権所有。"
+  }
+}

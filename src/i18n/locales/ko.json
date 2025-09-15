@@ -1,0 +1,113 @@
+{
+  "nav": {
+    "home": "홈",
+    "about": "소개",
+    "rooms": "객실",
+    "services": "서비스",
+    "contact": "연락처",
+    "bookNow": "지금 예약"
+  },
+  "hero": {
+    "title": "평온함을 경험하세요",
+    "subtitle": "달랏 스엉마이 빌라에서",
+    "description": "꽃의 도시 중심부의 평화로운 휴양지",
+    "bookButton": "지금 예약",
+    "viewRooms": "객실 보기"
+  },
+  "about": {
+    "title": "스엉마이 빌라 소개",
+    "subtitle": "달랏의 이상적인 휴양지",
+    "description1": "몽환적인 달랏 시내 중심부의 최적의 위치에 자리잡은 스엉마이 빌라는 평화와 휴식을 찾는 분들께 완벽한 목적지입니다. 현대적 스타일과 전통미를 결합한 독특한 건축으로, 자연과 가까우면서도 고급스러운 리조트 공간을 제공합니다.",
+    "description2": "각 빌라는 고급 편의시설을 갖추고 세심하게 설계되었으며, 푸른 계곡과 광활한 소나무 언덕이 내려다보이는 전망을 자랑합니다. 저희 전문 직원들은 항상 헌신과 배려로 고객님을 모실 준비가 되어 있습니다.",
+    "feature1Title": "최적의 위치",
+    "feature1Desc": "시내 중심에서 단 10분",
+    "feature2Title": "럭셔리 객실",
+    "feature2Desc": "현대적 편의시설, 아름다운 전망",
+    "feature3Title": "전문 서비스",
+    "feature3Desc": "24시간 전담 서비스",
+    "feature4Title": "평화로운 공간",
+    "feature4Desc": "완벽한 프라이버시와 휴식"
+  },
+  "rooms": {
+    "title": "프리미엄 객실",
+    "subtitle": "휴가를 위한 완벽한 공간을 선택하세요",
+    "viewDetails": "상세 보기",
+    "bookNow": "지금 예약",
+    "from": "부터",
+    "perNight": "/박",
+    "standard": {
+      "title": "스탠다드 빌라",
+      "description": "커플이나 비즈니스 여행객에게 적합한 모든 기본 편의시설을 갖춘 아늑한 객실입니다."
+    },
+    "deluxe": {
+      "title": "디럭스 빌라",
+      "description": "전용 발코니가 있는 넓은 객실, 정원과 소나무 언덕 전망을 감상할 수 있습니다."
+    },
+    "suite": {
+      "title": "스위트 빌라",
+      "description": "별도의 거실, 완비된 주방, 아름다운 파노라마 전망을 갖춘 프리미엄 아파트입니다."
+    }
+  },
+  "services": {
+    "title": "우리의 서비스",
+    "subtitle": "휴가를 위한 완벽한 서비스를 경험하세요",
+    "restaurant": {
+      "title": "레스토랑 & 요리",
+      "description": "달랏의 신선한 재료로 만든 현지 및 국제 요리를 즐기세요"
+    },
+    "pool": {
+      "title": "야외 수영장",
+      "description": "계곡 전망의 수영장, 연중 따뜻한 물"
+    },
+    "breakfast": {
+      "title": "뷔페 조식",
+      "description": "아시아 및 서양 요리가 풍부한 뷔페 조식, 6:30 - 10:00 제공"
+    },
+    "garden": {
+      "title": "에코 가든",
+      "description": "달랏의 다양한 꽃과 유기농 채소가 있는 2000m² 정원"
+    },
+    "photography": {
+      "title": "사진 촬영 서비스",
+      "description": "달랏의 유명한 장소에서 전문 사진 촬영 서비스로 아름다운 순간을 포착하세요"
+    },
+    "yoga": {
+      "title": "요가 & 명상",
+      "description": "전문 강사와 함께하는 아침 요가 수업, 몸과 마음의 균형을 찾으세요"
+    },
+    "romantic": {
+      "title": "로맨틱 디너",
+      "description": "로맨틱한 분위기와 특별 메뉴로 커플을 위한 프라이빗 디너 준비"
+    },
+    "coffee": {
+      "title": "커피숍",
+      "description": "정원 전망의 아늑한 공간에서 달랏 특산 커피를 즐기세요"
+    }
+  },
+  "contact": {
+    "title": "문의하기",
+    "subtitle": "24시간 서비스 준비",
+    "address": "주소",
+    "addressValue": "달랏 10구 쩐흥다오 123번지",
+    "phone": "전화",
+    "phoneValue": "0263 123 456",
+    "email": "이메일",
+    "emailValue": "info@suongmaivilla.vn",
+    "hours": "영업 시간",
+    "hoursValue": "24시간 - 항상 서비스 준비",
+    "formTitle": "메시지 보내기",
+    "formSubtitle": "24시간 내에 답변드리겠습니다",
+    "namePlaceholder": "성함",
+    "emailPlaceholder": "이메일",
+    "messagePlaceholder": "메시지",
+    "sendButton": "메시지 보내기",
+    "sending": "전송 중...",
+    "successMessage": "메시지가 성공적으로 전송되었습니다!"
+  },
+  "footer": {
+    "description": "달랏 중심부의 이상적인 리조트",
+    "quickLinks": "빠른 링크",
+    "contactInfo": "연락처 정보",
+    "copyright": "© 2024 스엉마이 빌라. 모든 권리 보유."
+  }
+}
