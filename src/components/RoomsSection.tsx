@@ -5,27 +5,29 @@ import { useNavigate } from "react-router-dom";
 import villaInterior from "@/assets/images/phong-1.webp";
 import villaBedroom from "@/assets/images/phong-2.jpg";
 import villaDining from "@/assets/images/phong-3.jpg";
+import { useTranslation } from "react-i18next";
 
 const RoomsSection = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const navigate = useNavigate();
+  const { t } = useTranslation();
 
   const rooms = [
     {
-      name: "Standard Double",
-      description: "Phòng đôi tinh tế với thiết kế tối giản, view ban công hướng đồi thông và vườn hoa hồng xanh mát.",
+      name: t('rooms.standard.title'),
+      description: t('rooms.standard.description'),
       image: villaInterior,
       slug: "standard-double"
     },
     {
-      name: "Deluxe Twin", 
-      description: "Phòng rộng rãi dành cho gia đình, thiết kế vintage ấm cúng với không gian nghỉ ngơi thoải mái.",
+      name: t('rooms.deluxe.title'), 
+      description: t('rooms.deluxe.description'),
       image: villaBedroom,
       slug: "deluxe-twin"
     },
     {
-      name: "Senior Deluxe Double",
-      description: "Phòng cao cấp sang trọng với view tuyệt đẹp ra thung lũng, mang đến trải nghiệm đẳng cấp nhất.",
+      name: t('rooms.suite.title'),
+      description: t('rooms.suite.description'),
       image: villaDining,
       slug: "senior-deluxe"
     }
@@ -53,11 +55,11 @@ const RoomsSection = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="font-dancing text-5xl md:text-6xl text-primary mb-4">
-            Phòng Nghỉ
+            {t('rooms.title')}
           </h2>
           <div className="w-24 h-1 bg-vintage-terracotta mx-auto mb-6"></div>
           <p className="font-playfair text-lg text-muted-foreground max-w-2xl mx-auto">
-            Khám phá những phòng nghỉ được thiết kế tinh tế, mang đậm phong cách vintage và hiện đại
+            {t('rooms.subtitle')}
           </p>
         </div>
 
@@ -99,7 +101,7 @@ const RoomsSection = () => {
                       variant="ghost"
                       onClick={() => navigate(`/rooms/${room.slug}`)}
                     >
-                      Xem Chi Tiết
+                      {t('rooms.viewDetails')}
                     </Button>
                   </div>
                 </div>
