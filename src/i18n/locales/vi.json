@@ -15,18 +15,24 @@
     "viewRooms": "Xem Phòng"
   },
   "about": {
-    "title": "Về Sương Mai Villa",
-    "subtitle": "Nơi Nghỉ Dưỡng Lý Tưởng Tại Đà Lạt",
-    "description1": "Tọa lạc tại vị trí đắc địa giữa lòng thành phố Đà Lạt mộng mơ, Sương Mai Villa là điểm đến hoàn hảo cho những ai tìm kiếm sự yên bình và thư giãn. Với kiến trúc độc đáo kết hợp giữa phong cách hiện đại và nét đẹp truyền thống, chúng tôi mang đến không gian nghỉ dưỡng sang trọng nhưng vẫn gần gũi với thiên nhiên.",
-    "description2": "Mỗi căn villa được thiết kế tỉ mỉ với đầy đủ tiện nghi cao cấp, view nhìn ra thung lũng xanh mát và những đồi thông bạt ngàn. Đội ngũ nhân viên chuyên nghiệp của chúng tôi luôn sẵn sàng phục vụ quý khách với sự tận tâm và chu đáo nhất.",
-    "feature1Title": "Vị Trí Đắc Địa",
-    "feature1Desc": "Chỉ 10 phút từ trung tâm thành phố",
-    "feature2Title": "Phòng Nghỉ Sang Trọng",
-    "feature2Desc": "Tiện nghi hiện đại, view đẹp",
-    "feature3Title": "Dịch Vụ Chuyên Nghiệp",
-    "feature3Desc": "Phục vụ tận tâm 24/7",
-    "feature4Title": "Không Gian Yên Tĩnh",
-    "feature4Desc": "Riêng tư và thư giãn tuyệt đối"
+    "title": "Về Chúng Tôi",
+    "subtitle": "Khám Phá Thêm",
+    "description1": "Sương Mai Villa nằm lặng lẽ giữa những rặng đồi thông, mang trong mình câu chuyện về tình yêu sâu sắc với Đà Lạt - mảnh đất của sương và gió. Chúng tôi mong muốn chia sẻ với bạn không chỉ một không gian nghỉ dưỡng, mà còn là những trải nghiệm chân thành, ấm áp như chính tên gọi của villa.",
+    "description2": "Với thiết kế mang phong cách vintage ấm cúng, mỗi góc của villa đều được chăm chút tỉ mỉ để bạn có thể tận hưởng khoảnh khắc bình yên, thư giãn giữa khung cảnh thiên nhiên tuyệt đẹp. Từ view đồi thông trải dài đến những đám mây bồng bềnh, mọi thứ tại đây đều được tạo nên để mang lại cho bạn một kỳ nghỉ đáng nhớ.",
+    "feature1": {
+      "title": "Tình yêu Đà Lạt",
+      "description": "Được sinh ra từ tình yêu sâu sắc với vẻ đẹp hoang sơ và thơ mộng của cao nguyên Langbiang"
+    },
+    "feature2": {
+      "title": "View Đồi Thông",
+      "description": "Tầm nhìn tuyệt đẹp ra những cánh đồi thông bát ngát và những đám mây bồng bềnh"
+    },
+    "feature3": {
+      "title": "Không Gian Thư Giãn",
+      "description": "Thiết kế vintage ấm cúng kết hợp với tiện nghi hiện đại, tạo nên trải nghiệm hoàn hảo"
+    },
+    "closingMessage": "Năm 2024, chúng tôi may mắn đủ duyên để khởi nên ngôi nhà ước mơ...",
+    "invitation": "Mời bạn ghé thăm nhà nhé! ✨"
   },
   "rooms": {
     "title": "Phòng Nghỉ Cao Cấp",
@@ -109,5 +115,27 @@
     "quickLinks": "Liên Kết Nhanh",
     "contactInfo": "Thông Tin Liên Hệ",
     "copyright": "© 2024 Sương Mai Villa. Bản quyền thuộc về chúng tôi."
+  },
+  "bookingForm": {
+    "checkInLabel": "Ngày nhận phòng",
+    "checkOutLabel": "Ngày trả phòng",
+    "adultsLabel": "Người lớn",
+    "childrenLabel": "Trẻ em",
+    "searchButton": "Tìm Phòng",
+    "errors": {
+      "missingDates": {
+        "title": "Vui lòng chọn ngày",
+        "description": "Bạn cần chọn ngày nhận phòng và trả phòng"
+      },
+      "invalidDate": {
+        "title": "Ngày không hợp lệ",
+        "past": "Ngày nhận phòng không thể là ngày trong quá khứ",
+        "order": "Ngày trả phòng phải sau ngày nhận phòng"
+      },
+      "tooManyGuests": {
+        "title": "Số lượng khách quá nhiều",
+        "description": "Xin lỗi, chúng tôi chỉ có phòng tối đa 4 người. Vui lòng liên hệ trực tiếp để được hỗ trợ."
+      }
+    }
   }
 }
