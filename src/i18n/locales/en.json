@@ -15,18 +15,24 @@
     "viewRooms": "View Rooms"
   },
   "about": {
-    "title": "About Suong Mai Villa",
-    "subtitle": "Your Ideal Retreat in Da Lat",
-    "description1": "Located in the prime location in the heart of dreamy Da Lat city, Suong Mai Villa is the perfect destination for those seeking peace and relaxation. With unique architecture combining modern style and traditional beauty, we offer a luxurious resort space while still being close to nature.",
-    "description2": "Each villa is meticulously designed with full luxury amenities, views overlooking green valleys and vast pine hills. Our professional staff is always ready to serve you with dedication and care.",
-    "feature1Title": "Prime Location",
-    "feature1Desc": "Only 10 minutes from city center",
-    "feature2Title": "Luxury Rooms",
-    "feature2Desc": "Modern amenities, beautiful views",
-    "feature3Title": "Professional Service",
-    "feature3Desc": "Dedicated service 24/7",
-    "feature4Title": "Peaceful Space",
-    "feature4Desc": "Absolute privacy and relaxation"
+    "title": "About Us",
+    "subtitle": "Learn More",
+    "description1": "Suong Mai Villa is nestled quietly among pine-covered hills, embodying a deep love for Da Lat - the land of mist and wind. We wish to share with you not just a place to stay, but sincere and warm experiences, just like the villa's name suggests.",
+    "description2": "With a cozy vintage design, every corner of the villa is carefully crafted so you can enjoy peaceful, relaxing moments amid stunning natural scenery. From expansive pine hill views to drifting clouds, everything here is created to give you a memorable vacation.",
+    "feature1": {
+      "title": "Love for Da Lat",
+      "description": "Born from a deep love for the pristine and poetic beauty of the Langbiang highlands"
+    },
+    "feature2": {
+      "title": "Pine Hill Views",
+      "description": "Stunning views of endless pine hills and floating clouds"
+    },
+    "feature3": {
+      "title": "Relaxing Space",
+      "description": "Cozy vintage design combined with modern amenities, creating the perfect experience"
+    },
+    "closingMessage": "In 2024, we were fortunate enough to build our dream home...",
+    "invitation": "We invite you to visit! ✨"
   },
   "rooms": {
     "title": "Premium Rooms",
@@ -109,5 +115,27 @@
     "quickLinks": "Quick Links",
     "contactInfo": "Contact Info",
     "copyright": "© 2024 Suong Mai Villa. All rights reserved."
+  },
+  "bookingForm": {
+    "checkInLabel": "Check-in date",
+    "checkOutLabel": "Check-out date",
+    "adultsLabel": "Adults",
+    "childrenLabel": "Children",
+    "searchButton": "Search Rooms",
+    "errors": {
+      "missingDates": {
+        "title": "Please select dates",
+        "description": "You need to select both check-in and check-out dates"
+      },
+      "invalidDate": {
+        "title": "Invalid date",
+        "past": "Check-in date cannot be in the past",
+        "order": "Check-out date must be after check-in date"
+      },
+      "tooManyGuests": {
+        "title": "Too many guests",
+        "description": "Sorry, the maximum occupancy is 4 guests. Please contact us directly for assistance."
+      }
+    }
   }
 }
