@@ -21,18 +21,18 @@ const AboutSection = () => {
   const features = [
     {
       icon: Heart,
-      title: "Tình yêu Đà Lạt",
-      description: "Được sinh ra từ tình yêu sâu sắc với vẻ đẹp hoang sơ và thơ mộng của cao nguyên Langbiang"
+      title: t('about.feature1.title'),
+      description: t('about.feature1.description')
     },
     {
       icon: Mountain,
-      title: "View Đồi Thông", 
-      description: "Tầm nhìn tuyệt đẹp ra những cánh đồi thông bát ngát và những đám mây bồng bềnh"
+      title: t('about.feature2.title'), 
+      description: t('about.feature2.description')
     },
     {
       icon: Coffee,
-      title: "Không Gian Thư Giãn",
-      description: "Thiết kế vintage ấm cúng kết hợp với tiện nghi hiện đại, tạo nên trải nghiệm hoàn hảo"
+      title: t('about.feature3.title'),
+      description: t('about.feature3.description')
     }
   ];
 
@@ -97,10 +97,10 @@ const AboutSection = () => {
 
         <div className="text-center">
           <p className="font-dancing text-2xl text-primary mb-4">
-            Năm 2024, chúng tôi may mắn đủ duyên để khởi nên ngôi nhà ước mơ...
+            {t('about.closingMessage')}
           </p>
           <p className="font-playfair text-lg text-foreground italic">
-            Mời bạn ghé thăm nhà nhé! ✨
+            {t('about.invitation')}
           </p>
         </div>
       </div>
