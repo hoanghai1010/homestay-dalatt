@@ -5,6 +5,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { useNavigate } from "react-router-dom";
 import { toast } from "@/components/ui/use-toast";
+import { useTranslation } from "react-i18next";
 
 const BookingForm = () => {
   const [checkIn, setCheckIn] = useState("");
@@ -12,13 +13,14 @@ const BookingForm = () => {
   const [adults, setAdults] = useState(2);
   const [children, setChildren] = useState(0);
   const navigate = useNavigate();
+  const { t } = useTranslation();
 
   const handleSearch = () => {
     // Validate dates
     if (!checkIn || !checkOut) {
       toast({
-        title: "Vui lòng chọn ngày",
-        description: "Bạn cần chọn ngày nhận phòng và trả phòng",
+        title: t('bookingForm.errors.missingDates.title'),
+        description: t('bookingForm.errors.missingDates.description'),
         variant: "destructive"
       });
       return;
@@ -31,8 +33,8 @@ const BookingForm = () => {
 
     if (checkInDate < today) {
       toast({
-        title: "Ngày không hợp lệ",
-        description: "Ngày nhận phòng không thể là ngày trong quá khứ",
+        title: t('bookingForm.errors.invalidDate.title'),
+        description: t('bookingForm.errors.invalidDate.past'),
         variant: "destructive"
       });
       return;
@@ -40,8 +42,8 @@ const BookingForm = () => {
 
     if (checkOutDate <= checkInDate) {
       toast({
-        title: "Ngày không hợp lệ", 
-        description: "Ngày trả phòng phải sau ngày nhận phòng",
+        title: t('bookingForm.errors.invalidDate.title'), 
+        description: t('bookingForm.errors.invalidDate.order'),
         variant: "destructive"
       });
       return;
@@ -59,8 +61,8 @@ const BookingForm = () => {
       roomType = "deluxe-twin"; // can accommodate 4 adults
     } else {
       toast({
-        title: "Số lượng khách quá nhiều",
-        description: "Xin lỗi, chúng tôi chỉ có phòng tối đa 4 người. Vui lòng liên hệ trực tiếp để được hỗ trợ.",
+        title: t('bookingForm.errors.tooManyGuests.title'),
+        description: t('bookingForm.errors.tooManyGuests.description'),
         variant: "destructive"
       });
       return;
@@ -76,7 +78,7 @@ const BookingForm = () => {
         {/* Check-in */}
         <div className="space-y-2">
           <Label className="font-playfair text-sm font-medium text-white drop-shadow-md">
-            Ngày nhận phòng
+            {t('bookingForm.checkInLabel')}
           </Label>
           <div className="relative">
             <Input
@@ -92,7 +94,7 @@ const BookingForm = () => {
         {/* Check-out */}
         <div className="space-y-2">
           <Label className="font-playfair text-sm font-medium text-white drop-shadow-md">
-            Ngày trả phòng
+            {t('bookingForm.checkOutLabel')}
           </Label>
           <div className="relative">
             <Input
@@ -108,7 +110,7 @@ const BookingForm = () => {
         {/* Adults */}
         <div className="space-y-2">
           <Label className="font-playfair text-sm font-medium text-white drop-shadow-md">
-            Người lớn
+            {t('bookingForm.adultsLabel')}
           </Label>
           <div className="relative">
             <Input
@@ -126,7 +128,7 @@ const BookingForm = () => {
         {/* Children */}
         <div className="space-y-2">
           <Label className="font-playfair text-sm font-medium text-white drop-shadow-md">
-            Trẻ em
+            {t('bookingForm.childrenLabel')}
           </Label>
           <div className="relative">
             <Input
@@ -149,7 +151,7 @@ const BookingForm = () => {
             onClick={handleSearch}
           >
             <Search size={16} className="mr-2" />
-            Tìm Phòng
+            {t('bookingForm.searchButton')}
           </Button>
         </div>
       </div>
